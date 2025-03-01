@@ -1,6 +1,6 @@
-import * as React from 'react';
-import FSUtility from './FSUtility';
-import FullScreenPropType from './FullScreenPropType';
+import * as React from "react";
+import FSUtility from "./FSUtility";
+import FullScreenPropType from "./FullScreenPropType";
 
 export default class FullScreen extends React.PureComponent<
   FullScreenPropType,
@@ -69,7 +69,7 @@ export default class FullScreen extends React.PureComponent<
       <div
         style={
           this.props.isFullScreen
-            ? { height: '100% !important', width: '100% !important' }
+            ? { height: "100% !important", width: "100% !important" }
             : undefined
         }
         ref={this.currentElement}
